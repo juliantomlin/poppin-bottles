@@ -27,7 +27,7 @@ var buyBottles = function(buyIn){
     }
     bottlesRedeemed += fullBottles
   }
-  return [bottlesRedeemed, fromMoney, fromEmpties, fromCaps]
+  return [bottlesRedeemed, fromMoney, fromEmpties, fromCaps, emptyBottles, bottleCaps]
 }
 
 module.exports = buyBottles
