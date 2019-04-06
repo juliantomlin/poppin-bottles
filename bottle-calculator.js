@@ -3,12 +3,11 @@
 var buyBottles = function(buyIn){
   var bottleCaps = 0
   var emptyBottles = 0
-  var bottlesRedeemed = 0
   var fromEmpties = 0
   var fromCaps = 0
-  var fromMoney = fullBottles = Math.floor(buyIn/bottlePrice)
   var fullBottles = Math.floor(buyIn/bottlePrice)
-  bottlesRedeemed = fullBottles
+  var fromMoney = fullBottles
+  var bottlesRedeemed = fullBottles
   while (true){
     bottleCaps += fullBottles
     emptyBottles += fullBottles
